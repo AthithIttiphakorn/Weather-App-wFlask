@@ -49,4 +49,5 @@ if __name__ == "__main__":
     #add app is first parameter if does not work
     #change to waitress production server using code below
     #serve(app, host="0.0.0.0", port=8000)
+    #run using flask's built in development server.
     app.run(debug=True, host="0.0.0.0", port=8000)
