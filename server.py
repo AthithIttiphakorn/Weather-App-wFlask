@@ -48,9 +48,9 @@ def get_weather():
 if __name__ == "__main__":
     #add app is first parameter if does not work
     #change to waitress production server using code below
-    #serve(app, host="0.0.0.0", port=8000)
+    serve(app, host="0.0.0.0", port=8000)
     #run using flask's built in development server.
-    app.run(debug=True, host="0.0.0.0", port=8000)
+    #app.run(debug=True, host="0.0.0.0", port=8000)
 
 #env and venv was not pushed to GitHub to improve security. To make a .venv and a .env  do py 
 #-m venv .venv in bash terminal. To get .env to store API keys just make a file '.env' in VSCode.
