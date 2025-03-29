@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Weather and Memes</title>
+
+    <!-- different than normal because Flask will be inserting a value into this file when it is called -->
+    <link href="{{ url_for('static', filename='styles/style.css')}}"
+    rel="stylesheet" />
+    
+</head>
+<body>
+    <h1>Get Weather Conditions!</h1>
+
+    <form action="/weather">
+
+        <input type="text" name="city" id="city"
+        placeholder="Enter a City name..." />
+        
+        <button type="submit">Find Temperature!</button>
+    </form>
+    
+</body>
+
+</html>
