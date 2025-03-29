@@ -54,3 +54,4 @@ if __name__ == "__main__":
 
 #env and venv was not pushed to GitHub to improve security. To make a .venv and a .env  do py 
 #-m venv .venv in bash terminal. To get .env to store API keys just make a file '.env' in VSCode.
+# Don't add a .README when pushing to a repository
