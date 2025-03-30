@@ -1,3 +1,5 @@
+Hey,
+
 To use this project you need to install some packages.
 
 Commands will be for use in the bash terminal:
@@ -9,6 +11,7 @@ Installing Basic Packages Required:
  
  Installing all of them can be done on 1 line.                   
     >>>>           pip install requests python-dotenv Flask
+
 
 Install Waitress for a production server
     >>>            pip install waitress
