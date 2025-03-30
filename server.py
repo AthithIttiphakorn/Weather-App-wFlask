@@ -52,6 +52,6 @@ if __name__ == "__main__":
     #run using flask's built in development server.
     #app.run(debug=True, host="0.0.0.0", port=8000)
 
-#env and venv was not pushed to GitHub to improve security. To make a .venv and a .env  do py 
-#-m venv .venv in bash terminal. To get .env to store API keys just make a file '.env' in VSCode.
+#env and venv was not pushed to GitHub to improve security. To make a .venv and a .env  do  
+#py -m venv .venv in bash terminal. To get .env to store API keys just make a file '.env' in VSCode.
 # Don't add a .README when pushing to a repository
